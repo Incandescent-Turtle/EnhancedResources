@@ -1,21 +1,17 @@
 package mod.RLander.enhancedresources.objects.items.tools;
 
-import net.minecraft.item.Item.ToolMaterial;
-import net.minecraft.util.text.TextFormatting;
-import net.minecraft.world.World;
-import net.minecraftforge.fml.relauncher.Side;
-import net.minecraftforge.fml.relauncher.SideOnly;
-
-import java.util.ArrayList;
-import java.util.List;
-
 import mod.RLander.enhancedresources.EnhancedResources;
-import mod.RLander.enhancedresources.init.ModItems;
 import mod.RLander.enhancedresources.util.helpers.ItemHelper;
 import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.enchantment.Enchantment;
 import net.minecraft.item.ItemSpade;
 import net.minecraft.item.ItemStack;
+import net.minecraft.util.text.TextFormatting;
+import net.minecraft.world.World;
+import net.minecraftforge.fml.relauncher.Side;
+import net.minecraftforge.fml.relauncher.SideOnly;
+
+import java.util.List;
 
 public class ToolShovel extends ItemSpade {
 	

@@ -1,25 +1,17 @@
 package mod.RLander.enhancedresources.proxy;
 
-import org.lwjgl.input.Keyboard;
-
 import mod.RLander.enhancedresources.entities.EntityIndraniumPearl;
 import mod.RLander.enhancedresources.init.ModItems;
-import mod.RLander.enhancedresources.util.Reference;
 import mod.RLander.enhancedresources.util.handlers.KeyHandler;
 import net.minecraft.client.Minecraft;
-import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.client.renderer.entity.RenderSnowball;
 import net.minecraft.client.settings.KeyBinding;
-import net.minecraft.item.Item;
-import net.minecraftforge.client.model.ModelLoader;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.client.registry.ClientRegistry;
 import net.minecraftforge.fml.client.registry.RenderingRegistry;
-import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
-import net.minecraftforge.fml.relauncher.Side;
+import org.lwjgl.input.Keyboard;
 
 public class ClientProxy extends CommonProxy {
 	public static KeyBinding[] keyBindings;

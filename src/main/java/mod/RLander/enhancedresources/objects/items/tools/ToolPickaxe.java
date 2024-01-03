@@ -1,34 +1,18 @@
 package mod.RLander.enhancedresources.objects.items.tools;
 
-import java.util.ArrayList;
-import java.util.List;
-
-import ibxm.Player;
 import mod.RLander.enhancedresources.EnhancedResources;
-import mod.RLander.enhancedresources.init.ModItems;
 import mod.RLander.enhancedresources.util.helpers.ItemHelper;
-import net.minecraft.item.Item.ToolMaterial;
-import net.minecraft.util.EnumFacing;
-import net.minecraft.util.math.BlockPos;
+import net.minecraft.client.util.ITooltipFlag;
+import net.minecraft.enchantment.Enchantment;
+import net.minecraft.entity.Entity;
+import net.minecraft.item.ItemPickaxe;
+import net.minecraft.item.ItemStack;
 import net.minecraft.util.text.TextFormatting;
 import net.minecraft.world.World;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
-import net.minecraft.block.state.IBlockState;
-import net.minecraft.client.util.ITooltipFlag;
-import net.minecraft.enchantment.Enchantment;
-import net.minecraft.entity.Entity;
-import net.minecraft.entity.EntityLivingBase;
-import net.minecraft.entity.SharedMonsterAttributes;
-import net.minecraft.entity.player.EntityPlayer;
-import net.minecraft.entity.player.EntityPlayerMP;
-import net.minecraft.init.Blocks;
-import net.minecraft.item.ItemPickaxe;
-import net.minecraft.item.ItemStack;
-import net.minecraft.potion.Potion;
-import net.minecraft.potion.PotionAbsorption;
-import net.minecraft.potion.PotionEffect;
-import net.minecraft.server.management.PlayerInteractionManager;
+
+import java.util.List;
 
 public class ToolPickaxe extends ItemPickaxe{
 

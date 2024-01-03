@@ -1,16 +1,16 @@
 package mod.RLander.enhancedresources.util;
 
-import java.util.Arrays;
-import java.util.List;
-
 import mod.RLander.enhancedresources.init.ModItems;
 import net.minecraft.enchantment.Enchantment;
 import net.minecraft.init.Enchantments;
 import net.minecraft.init.SoundEvents;
-import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item.ToolMaterial;
 import net.minecraft.item.ItemArmor.ArmorMaterial;
+import net.minecraft.item.ItemStack;
 import net.minecraftforge.common.util.EnumHelper;
+
+import java.util.Arrays;
+import java.util.List;
 
 public class ItemUtil {
 	public static final ArmorMaterial ARMOR_BLATIUM = EnumHelper

@@ -1,44 +1,25 @@
 package mod.RLander.enhancedresources.init;
 
-import java.lang.reflect.Array;   
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-
-import javax.annotation.Nonnull;
-
 import mod.RLander.enhancedresources.EnhancedResources;
 import mod.RLander.enhancedresources.objects.items.armor.IndraniumChestplate;
 import mod.RLander.enhancedresources.objects.items.armor.VulcaniumChestplate;
 import mod.RLander.enhancedresources.objects.items.throwable.ItemIndraniumPearl;
-import mod.RLander.enhancedresources.objects.items.tools.IndraniumSword;
-import mod.RLander.enhancedresources.objects.items.tools.ToolAxe;
-import mod.RLander.enhancedresources.objects.items.tools.ToolPickaxe;
-import mod.RLander.enhancedresources.objects.items.tools.ToolShovel;
-import mod.RLander.enhancedresources.objects.items.tools.ToolSword;
-import mod.RLander.enhancedresources.objects.items.tools.VulcaniumSword;
-import static mod.RLander.enhancedresources.util.ItemUtil.*;
+import mod.RLander.enhancedresources.objects.items.tools.*;
 import mod.RLander.enhancedresources.util.Reference;
-import net.minecraft.block.Block;
-import net.minecraft.creativetab.CreativeTabs;
-import net.minecraft.enchantment.Enchantment;
-import net.minecraft.init.Enchantments;
-import net.minecraft.init.SoundEvents;
 import net.minecraft.inventory.EntityEquipmentSlot;
 import net.minecraft.item.Item;
 import net.minecraft.item.Item.ToolMaterial;
 import net.minecraft.item.ItemArmor;
 import net.minecraft.item.ItemArmor.ArmorMaterial;
-import net.minecraft.item.ItemBlock;
-import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.text.TextFormatting;
-import net.minecraft.item.ItemStack;
-import net.minecraftforge.common.util.EnumHelper;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.fml.common.registry.GameRegistry.ObjectHolder;
+
+import javax.annotation.Nonnull;
+
+import static mod.RLander.enhancedresources.util.ItemUtil.*;
   
 @ObjectHolder(Reference.MOD_ID)
 @Mod.EventBusSubscriber(modid = Reference.MOD_ID)

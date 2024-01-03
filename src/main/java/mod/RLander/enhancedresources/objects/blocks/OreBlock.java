@@ -1,23 +1,19 @@
 package mod.RLander.enhancedresources.objects.blocks;
 
-import java.util.Random;
-import java.util.function.Supplier;
-
-import mod.RLander.enhancedresources.EnhancedResources;
 import mod.RLander.enhancedresources.init.ModBlocks;
-import mod.RLander.enhancedresources.init.ModItems;
 import net.minecraft.block.Block;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.entity.effect.EntityLightningBolt;
-import net.minecraft.init.Blocks;
-import net.minecraft.init.Items;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemBlock;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
+
+import java.util.Random;
+import java.util.function.Supplier;
 
 public class OreBlock extends Block { 
 	/*to create ores. three different constructors, so both diamond-like ores, lapis-like ores and iron-like ores can be made. they can either drop themselves, or another

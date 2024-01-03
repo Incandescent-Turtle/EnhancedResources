@@ -1,28 +1,22 @@
 package mod.RLander.enhancedresources.init;
 
-import java.util.ArrayList;    
-import java.util.List;
-
-import javax.annotation.Nonnull;
-
 import mod.RLander.enhancedresources.EnhancedResources;
 import mod.RLander.enhancedresources.crafting.BlockEnhancedCraftingTable;
 import mod.RLander.enhancedresources.objects.blocks.Cloud;
 import mod.RLander.enhancedresources.objects.blocks.MagmaObsidian;
 import mod.RLander.enhancedresources.objects.blocks.OreBlock;
-import mod.RLander.enhancedresources.objects.blocks.UnbreakableBlockBase;
 import mod.RLander.enhancedresources.util.Reference;
 import net.minecraft.block.Block;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
-import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemBlock;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.fml.common.registry.GameRegistry.ObjectHolder;
+
+import javax.annotation.Nonnull;
 
 @ObjectHolder(Reference.MOD_ID)
 @Mod.EventBusSubscriber(modid = Reference.MOD_ID)

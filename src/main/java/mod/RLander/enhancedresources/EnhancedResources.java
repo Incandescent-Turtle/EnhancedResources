@@ -2,12 +2,10 @@ package mod.RLander.enhancedresources;
 
 import mod.RLander.enhancedresources.init.ModEntities;
 import mod.RLander.enhancedresources.init.ModFurnaceRecipes;
-import mod.RLander.enhancedresources.proxy.ClientProxy;
 import mod.RLander.enhancedresources.proxy.CommonProxy;
 import mod.RLander.enhancedresources.tabs.EnhancedResourcesTab;
 import mod.RLander.enhancedresources.util.Reference;
 import mod.RLander.enhancedresources.util.handlers.GuiHandler;
-import mod.RLander.enhancedresources.util.handlers.KeyHandler;
 import mod.RLander.enhancedresources.util.handlers.ModEventHandler;
 import mod.RLander.enhancedresources.world.ModWorldGen;
 import net.minecraft.creativetab.CreativeTabs;

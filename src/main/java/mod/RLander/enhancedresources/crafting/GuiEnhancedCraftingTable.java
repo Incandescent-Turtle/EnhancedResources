@@ -1,18 +1,10 @@
 package mod.RLander.enhancedresources.crafting;
 
-import java.io.IOException;
-
 import mod.RLander.enhancedresources.util.Reference;
-import net.minecraft.client.gui.GuiButton;
-import net.minecraft.client.gui.GuiButtonImage;
 import net.minecraft.client.gui.inventory.GuiContainer;
-import net.minecraft.client.gui.recipebook.GuiRecipeBook;
 import net.minecraft.client.renderer.GlStateManager;
 import net.minecraft.client.resources.I18n;
 import net.minecraft.entity.player.InventoryPlayer;
-import net.minecraft.inventory.ClickType;
-import net.minecraft.inventory.ContainerWorkbench;
-import net.minecraft.inventory.Slot;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;

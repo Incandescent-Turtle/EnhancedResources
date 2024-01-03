@@ -2,9 +2,7 @@ package mod.RLander.enhancedresources.objects.items.tools;
 
 import mod.RLander.enhancedresources.util.ItemUtil;
 import net.minecraft.entity.EntityLivingBase;
-import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.Item.ToolMaterial;
 import net.minecraft.util.text.TextFormatting;
 
 public class VulcaniumSword extends ToolSword {

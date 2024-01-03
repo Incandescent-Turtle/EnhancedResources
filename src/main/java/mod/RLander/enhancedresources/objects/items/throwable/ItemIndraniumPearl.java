@@ -1,10 +1,8 @@
 package mod.RLander.enhancedresources.objects.items.throwable;
 
 import mod.RLander.enhancedresources.entities.EntityIndraniumPearl;
-import mod.RLander.enhancedresources.init.ModItems;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.entity.player.EntityPlayer;
-import net.minecraft.entity.projectile.EntitySnowball;
 import net.minecraft.init.SoundEvents;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;

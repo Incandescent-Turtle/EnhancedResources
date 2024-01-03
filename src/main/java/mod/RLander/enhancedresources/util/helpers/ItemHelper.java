@@ -1,19 +1,14 @@
 package mod.RLander.enhancedresources.util.helpers;
 
-import java.util.List;
-
 import mod.RLander.enhancedresources.init.ModItems;
-import mod.RLander.enhancedresources.objects.items.armor.VulcaniumChestplate;
 import mod.RLander.enhancedresources.objects.items.tools.IndraniumSword;
 import mod.RLander.enhancedresources.util.ItemUtil;
-import net.minecraft.item.Item;
-import net.minecraft.item.Item.ToolMaterial;
-import net.minecraft.util.text.TextFormatting;
-import scala.actors.threadpool.Arrays;
 import net.minecraft.enchantment.Enchantment;
-import net.minecraft.enchantment.EnchantmentHelper;
-import net.minecraft.init.Enchantments;
+import net.minecraft.item.Item.ToolMaterial;
 import net.minecraft.item.ItemStack;
+import net.minecraft.util.text.TextFormatting;
+
+import java.util.List;
 
 public class ItemHelper {
 
