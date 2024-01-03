@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "MMM",
+        "M M",
+        "M M"
+    ],
+    
+    "key":
+    {
+        "M":
+        {
+            "item": "enhancedresources:indranium_pearl"
+        }
+    },
+    
+    "result":
+    {
+        "item": "enhancedresources:indranium_leggings",
+        "count": 1
+    }
+}

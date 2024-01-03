@@ -1,0 +1,6 @@
+{
+   "parent": "block/cube_all",
+   "textures": {
+       "all": "enhancedresources:blocks/blatium_ore"
+   }
+}

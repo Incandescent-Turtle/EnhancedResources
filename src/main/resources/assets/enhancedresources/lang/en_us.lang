@@ -1,0 +1,57 @@
+item.blatium_ingot.name=Blatium Ingot
+item.vulcanium_shard.name=Vulcanium Shard
+item.vulcanium_chunk.name=Vulcanium Chunk
+item.indranium_pearl.name=Indranium Pearl
+item.indranium_shard.name=Indranium Shard
+item.peractio_fragments.name=Peractio Fragments
+
+item.blatium_helmet.name=Blatium Helmet
+item.blatium_chestplate.name=Blatium ChestPlate
+item.blatium_leggings.name=Blatium Leggings
+item.blatium_boots.name=Blatium Boots
+item.vulcanium_helmet.name=Vulcanium Helmet
+item.vulcanium_chestplate.name=Vulcanium Chestplate
+item.vulcanium_leggings.name=Vulcanium Leggings
+item.vulcanium_boots.name=Vulcanium Boots
+item.indranium_helmet.name=Indranium Helmet
+item.indranium_chestplate.name=Indranium Chestplate
+item.indranium_leggings.name=Indranium Leggings
+item.indranium_boots.name=Indranium Boots
+
+item.blatium_sword.name=Blatium Sword
+item.blatium_pickaxe.name=Blatium Pickaxe
+item.blatium_shovel.name=Blatium Shovel
+item.blatium_hoe.name=Blatium Hoe
+item.blatium_axe.name=Blatium Axe
+item.vulcanium_sword.name=Vulcanium Sword
+item.vulcanium_pickaxe.name=Vulcanium Pickaxe
+item.vulcanium_axe.name=Vulcanium Axe
+item.vulcanium_shovel.name=Vulcanium Shovel
+item.vulcanium_hoe.name=Vulcanium Hoe
+item.indranium_sword.name=Indranium Sword
+item.indranium_pickaxe.name=Indranium Pickaxe
+item.indranium_axe.name=Indranium Axe
+item.indranium_shovel.name=Indranium Shovel
+item.indranium_hoe.name=Indranium Hoe
+
+tile.blatium_block.name=Block of Blatium
+tile.blatium_ore.name=Blatium Ore
+tile.vulcanium_ore.name=Vulcanium Ore
+tile.enhanced_crafting_table.name=Enhanced Crafting Table
+tile.magma_obsidian.name=Magma Obsidian
+
+itemGroup.enhancedresourcestab=Enhanced Resources
+
+key.enableoverworldflight.desc=Enable Overworld Flight
+key.enhancedresources.category=Enhanced Resources
+
+
+item.peractio_helmet.name=Peractio Helmet
+item.peractio_chestplate.name=Peractio Chestplate
+item.peractio_leggings.name=Peractio Leggings
+item.peractio_boots.name=Peractio Boots
+
+item.peractio_sword.name=Peractio Sword
+item.peractio_pickaxe.name=Peractio Pickaxe
+item.peractio_axe.name=Peractio Axe
+item.peractio_shovel.name=Peractio Shovel

@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "VVV",
+        "VVV",
+        "VVV"
+    ],
+    
+    "key":
+    {
+        "V":
+        {
+            "item": "enhancedresources:vulcanium_shard"
+        }
+    },
+    
+    "result":
+    {
+        "item": "enhancedresources:vulcanium_chunk",
+        "count": 1
+    }
+}

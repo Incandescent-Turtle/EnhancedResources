@@ -1,0 +1,25 @@
+{
+    "type": "doggo",
+    
+    "pattern":
+    [
+        "S",
+        "S",
+        "S",
+        "S"
+    ],
+    
+    "key":
+    {
+        "S":
+        {
+            "item": "minecraft:stick"
+        }
+    },
+    
+    "result":
+    {
+        "item": "enhancedresources:vulcanium_axe",
+        "count": 1
+    }
+}

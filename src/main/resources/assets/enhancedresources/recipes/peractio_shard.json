@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "FFF",
+        "FFF",
+        "FFF"
+    ],
+    
+    "key":
+    {
+        "F":
+        {
+            "item": "enhancedresources:peractio_fragments"
+        }
+    },
+    
+    "result":
+    {
+        "item": "enhancedresources:peractio_shard",
+        "count": 1
+    }
+}

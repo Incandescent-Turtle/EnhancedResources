@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "MM ",
+        "MS ",
+        " S "
+    ],
+    
+    "key":
+    {
+        "S":
+        {
+            "item": "minecraft:stick"
+        },
+        
+        "M":
+        {
+            "item": "enhancedresources:indranium_pearl"
+        }
+    },
+    
+    "result":
+    {
+        "item": "enhancedresources:indranium_axe",
+        "count": 1
+    }
+}

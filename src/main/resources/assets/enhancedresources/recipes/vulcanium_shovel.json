@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        " M ",
+        " S ",
+        " S "
+    ],
+    
+    "key":
+    {
+        "S":
+        {
+            "item": "minecraft:stick"
+        },
+        
+        "M":
+        {
+            "item": "enhancedresources:vulcanium_chunk"
+        }
+    },
+    
+    "result":
+    {
+        "item": "enhancedresources:vulcanium_shovel",
+        "count": 1
+    }
+}

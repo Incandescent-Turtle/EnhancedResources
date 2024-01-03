@@ -1,0 +1,26 @@
+{
+    "type": "doggo",
+    
+    "pattern":
+    [
+        "TTTTT",
+        "TTTTT",
+        "TTTTT",
+        "TTTTT",
+        "TTTTT"
+    ],
+    
+    "key":
+    {
+        "T":
+        {
+            "item": "minecraft:diamond"
+        }
+    },
+    
+    "result":
+    {
+        "item": "minecraft:grass",
+        "count": 1
+    }
+}

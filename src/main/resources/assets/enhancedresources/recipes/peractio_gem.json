@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "SSS",
+        "SSS",
+        "SSS"
+    ],
+    
+    "key":
+    {
+        "S":
+        {
+            "item": "enhancedresources:peractio_shard"
+        }
+    },
+    
+    "result":
+    {
+        "item": "enhancedresources:peractio_gem",
+        "count": 1
+    }
+}

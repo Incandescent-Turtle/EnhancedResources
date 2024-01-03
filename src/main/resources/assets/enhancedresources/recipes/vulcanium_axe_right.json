@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        " MM",
+        " SM",
+        " S "
+    ],
+    
+    "key":
+    {
+        "S":
+        {
+            "item": "minecraft:stick"
+        },
+        
+        "M":
+        {
+            "item": "enhancedresources:vulcanium_chunk"
+        }
+    },
+    
+    "result":
+    {
+        "item": "enhancedresources:vulcanium_axe",
+        "count": 1
+    }
+}

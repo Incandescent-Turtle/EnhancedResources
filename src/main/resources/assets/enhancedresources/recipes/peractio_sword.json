@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "M",
+        "M",
+        "S"
+    ],
+    
+    "key":
+    {
+        "S":
+        {
+            "item": "minecraft:stick"
+        },
+        
+        "M":
+        {
+            "item": "enhancedresources:peractio_gem"
+        }
+    },
+    
+    "result":
+    {
+        "item": "enhancedresources:peractio_sword",
+        "count": 1
+    }
+}
