@@ -111,7 +111,7 @@ public class ToolPickaxe extends ItemPickaxe{
 	@SideOnly(Side.CLIENT)
 	@Override
 	public void addInformation(ItemStack stack, World world, List<String> list, ITooltipFlag flag) {
-		ItemHelper.setToolTip(stack, list, toolTipMessage, toolTipColor, toolTipStyle, toolMaterial);
+		ItemHelper.setToolTip(list, toolTipMessage, toolTipColor, toolTipStyle);
 	}
 	
 	@Override

@@ -1,10 +1,12 @@
 package mod.RLander.enhancedresources.init;
 
 import mod.RLander.enhancedresources.EnhancedResources;
+import mod.RLander.enhancedresources.objects.items.armor.ArmorPiece;
 import mod.RLander.enhancedresources.objects.items.armor.IndraniumChestplate;
 import mod.RLander.enhancedresources.objects.items.armor.VulcaniumChestplate;
 import mod.RLander.enhancedresources.objects.items.throwable.ItemIndraniumPearl;
 import mod.RLander.enhancedresources.objects.items.tools.*;
+import mod.RLander.enhancedresources.util.ItemUtil;
 import mod.RLander.enhancedresources.util.Reference;
 import net.minecraft.inventory.EntityEquipmentSlot;
 import net.minecraft.item.Item;
@@ -181,6 +183,19 @@ public class ModItems { //where all items (non blocks) are created
 		
 		private static Item makeArmor(ArmorMaterial material, String armourPart)
 		{
+			TextFormatting toolTipColor = null;
+			TextFormatting toolTipStyle = null;
+			String toolTipMessage = "";
+
+			if(material.equals(ItemUtil.ARMOR_INDRANIUM)) {
+				toolTipColor = TextFormatting.AQUA;
+				toolTipMessage = "Flight & Fall Immunity";
+			} else if(material.equals(ItemUtil.ARMOR_VULCANIUM)) {
+				toolTipColor = TextFormatting.RED;
+				toolTipMessage = "Fire-Proof";
+				toolTipStyle = TextFormatting.BOLD;
+			}
+
 			EntityEquipmentSlot slot = null;
 			String name = material.toString().split("_")[1].toLowerCase() + "_" + armourPart;
 			int index = 1;
@@ -200,16 +215,30 @@ public class ModItems { //where all items (non blocks) are created
 				slot = EntityEquipmentSlot.FEET;
 				break;
 			}
-			return new ItemArmor(material, index, slot).setTranslationKey(name).setRegistryName(name).setCreativeTab(EnhancedResources.ENHANCED_RESOURCES);
+			return new ArmorPiece(material, index, slot, toolTipMessage, toolTipColor,toolTipStyle).setTranslationKey(name).setRegistryName(name).setCreativeTab(EnhancedResources.ENHANCED_RESOURCES);
 		}
 		
 		private static Item makeTool(ToolMaterial material, String toolType)
 		{
+			TextFormatting toolTipColor = null;
+			TextFormatting toolTipStyle = null;
+			String toolTipMessage = "";
+
+			if (material.equals(ItemUtil.TOOL_VULCANIUM))
+			{
+				toolTipColor = TextFormatting.RED;
+				toolTipStyle = TextFormatting.BOLD;
+				toolTipMessage = "Auto-Smelts";
+			} else if (material.equals(ItemUtil.TOOL_INDRANIUM))
+			{
+				toolTipColor = TextFormatting.AQUA;
+				toolTipMessage = "Silk-Touch";
+			}
 			String name = material.toString().split("_")[1].toLowerCase() + "_" + toolType;
-			if (toolType.equals("pickaxe")) return new ToolPickaxe(name, material);
-			if (toolType.equals("sword")) return new ToolSword(name, material);
-			if (toolType.equals("shovel")) return new ToolShovel(name, material);
-			if (toolType.equals("axe")) return new ToolAxe(name, material);
+			if (toolType.equals("pickaxe")) return new ToolPickaxe(name, material, toolTipMessage, toolTipColor, toolTipStyle);
+			if (toolType.equals("sword")) return new ToolSword(name, material, toolTipMessage, toolTipColor, toolTipStyle);
+			if (toolType.equals("shovel")) return new ToolShovel(name, material, toolTipMessage, toolTipColor, toolTipStyle);
+			if (toolType.equals("axe")) return new ToolAxe(name, material, toolTipMessage, toolTipColor, toolTipStyle);
 			return new Item().setTranslationKey("this_shouldnt_exist").setRegistryName("this_shouldnt_exist").setCreativeTab(EnhancedResources.ENHANCED_RESOURCES);
 		}
 }

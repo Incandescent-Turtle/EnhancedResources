@@ -12,22 +12,10 @@ import java.util.List;
 
 public class ItemHelper {
 
-	public static void setToolTip(ItemStack stack, List<String> list, String message, TextFormatting color, TextFormatting style, ToolMaterial material)
+	public static void setToolTip(List<String> list, String message, TextFormatting color, TextFormatting style)
 	{
-		if (material.equals(ItemUtil.TOOL_VULCANIUM)) 
-	    {
-			if(stack.getItem().equals(ModItems.VULCANIUM_SWORD))
-			{
-		    	list.add(TextFormatting.RED + "" + TextFormatting.BOLD + "Fire Aspect");
-
-			} else {
-		    	list.add(TextFormatting.RED + "" + TextFormatting.BOLD + "Auto-Smelts");
-			}
-
-	    } else if (material.equals(ItemUtil.TOOL_INDRANIUM) && !(stack.getItem() instanceof IndraniumSword)) {
-	    	list.add("" + TextFormatting.AQUA + "Silk-Touch");
-
-	    } else if (message != null) {
+		if (message != null && !message.equals("")) {
+			if (color == null) color = TextFormatting.WHITE;
 	    	if (style == null) style = color;
 	    	list.add("" + color + style + message);
 	    }

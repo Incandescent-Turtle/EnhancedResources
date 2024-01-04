@@ -9,12 +9,13 @@ import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.inventory.EntityEquipmentSlot;
 import net.minecraft.item.ItemArmor;
 import net.minecraft.item.ItemStack;
+import net.minecraft.util.text.TextFormatting;
 import net.minecraft.world.World;
 
-public class IndraniumChestplate extends ItemArmor {
+public class IndraniumChestplate extends ArmorPiece {
 
 	public IndraniumChestplate(String name, ArmorMaterial material, int renderIndex, EntityEquipmentSlot equipmentSlot) {
-		super(material, renderIndex, equipmentSlot);
+		super(material, renderIndex, equipmentSlot, "Flight & Fall Immunity", TextFormatting.AQUA, null);
 		setTranslationKey(name);
 		setRegistryName(name);
 		setCreativeTab(EnhancedResources.ENHANCED_RESOURCES);

@@ -8,7 +8,7 @@ import net.minecraft.util.text.TextFormatting;
 public class VulcaniumSword extends ToolSword {
 
 	public VulcaniumSword(String name, ToolMaterial material, String toolTipMessage, TextFormatting toolTipColor, TextFormatting toolTipStyle) {
-		super(name, ItemUtil.TOOL_INDRANIUM, toolTipMessage, toolTipColor, toolTipStyle);
+		super(name, ItemUtil.TOOL_VULCANIUM, toolTipMessage, toolTipColor, toolTipStyle);
 	}
 	
 	@Override
